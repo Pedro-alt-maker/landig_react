@@ -1,0 +1,49 @@
+footer{
+    display: flex;
+    width: 100%;
+    color: #fff;
+    padding: 24px 4%;
+    background-color:#221f1f;
+    justify-content: space-between;
+}
+.boxfooter{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 60px;
+}
+.descriptionFooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardFooter{
+    padding: 0 30px;
+}
+.cardFooter ul li{
+    margin: 20px 0;
+    list-style: outside;
+}
+.cardFooter ul li a{
+    color: #fff;
+}
+.cardFooter ul li a:hover{
+    text-decoration: underline;
+}
+.redes_Sociais{
+    display: flex;
+    gap: 30px;
+    margin-top: 25px;
+    align-items: center;
+}
+.redes_Sociais a{
+    color: #000000;
+    padding:4px;
+    transition: .6s;
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

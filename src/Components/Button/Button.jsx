@@ -1,0 +1,3 @@
+function Buntton(){
+    <button></button>
+}

@@ -1,0 +1,57 @@
+#Cardapio{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    margin-bottom: 27%;
+}
+.carImage{
+    height: 70%;
+    padding:  50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+}
+.cardDescription{
+    padding:0 50px;
+}
+.carImage img{
+    width: 60%;
+    height: auto;
+}
+.boxcard{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 30px;
+}
+.card{
+    transition: .4s ease-out;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgb(0,0,0,0.1);
+}
+.card:hover{
+    background-color: bisque;
+     box-shadow: 0 4px 6px rgb(0,0,0,0.3);
+}
+.boxbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 22px;
+}
+.boxbtn button{
+    padding: 10px 15px;
+    background-color: green;
+    width: 200px;
+    color: #fff;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    border: none;
+    transition: .3s;
+}
+.boxbtn button:hover{
+    background-color: rgb(10, 170, 10);
+}
