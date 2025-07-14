@@ -5,7 +5,7 @@ function Footer() {
       <footer id="Contacto">
         <div className="boxfooter">
           <div className="cardFooter">
-            <h4>Bom Café</h4>
+            <h4>Food</h4>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil
               minima sapiente fuga. Animi sit, doloribus vel eos perferendis
