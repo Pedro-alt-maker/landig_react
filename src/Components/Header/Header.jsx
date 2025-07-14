@@ -1,5 +1,5 @@
 import "./Header.css";
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 function Header() {
   const BtnMenu = () => {
     navbar.current.classList.toggle("active");
@@ -17,7 +17,7 @@ function Header() {
       <header>
         <div className="logo">
           <span>
-            {" "}
+          
             Food<i className="fa-solid fa-pizza-slice"></i>
           </span>
         </div>
